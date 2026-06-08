@@ -114,7 +114,7 @@
 
 ### 3.1 知识库概述
 
-知识库托管在 GitHub：**https://github.com/Serenasnchen/presale-knowledge-base**
+知识库托管在 GitHub：**https://github.com/echotan-cn/presale-knowledge-base**
 
 Provider Assist 和 Presale Agent 通过 **Git Submodule** 共享同一个知识库，保证两个产品使用一致的行业数据。
 
@@ -483,7 +483,7 @@ knowledge/（本地源仓库）
 | **知识库** | 同一个 presale-knowledge-base | 同一个 presale-knowledge-base |
 | **核心产出** | 需求报告 | 提问清单 + 需求报告 + Demo |
 | **部署** | Vercel (presale-agent) | Vercel (provider-assist) |
-| **GitHub** | Serenasnchen/presale-agent2 | Serenasnchen/provider-assist |
+| **GitHub** | echotan-cn/wecomdev_presale-agent | echotan-cn/wecomdev_provider-assist |
 | **状态** | 内测结束，保留运行 | 当前主力迭代 |
 
 **两者共享同一个 GitHub 知识库**，通过 Git Submodule 引入，保证行业知识、案例数据、字段模板的一致性。更新知识库只需要在源仓库 push，两个产品部署时自动获取最新版本。
@@ -495,8 +495,8 @@ knowledge/（本地源仓库）
 ### 8.1 部署配置
 
 - **域名**：https://provider-assist.vercel.app
-- **代码仓库**：https://github.com/Serenasnchen/provider-assist
-- **知识库仓库**：https://github.com/Serenasnchen/presale-knowledge-base
+- **代码仓库**：https://github.com/echotan-cn/wecomdev_provider-assist
+- **知识库仓库**：https://github.com/echotan-cn/presale-knowledge-base
 - **企微 MCP**：通过 apikey 鉴权调用企微文档/智能表格 API
 - **AI 模型**：DeepSeek Chat（前端直连 https://api.deepseek.com）
 

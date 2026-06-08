@@ -5,7 +5,7 @@
 if [ ! -f "knowledge/pool/demand_pool.json" ]; then
     echo "Submodule not populated, cloning knowledge base..."
     rm -rf knowledge
-    git clone https://${GITHUB_TOKEN}@github.com/Serenasnchen/presale-knowledge-base.git knowledge
+    git clone https://${GITHUB_TOKEN}@github.com/echotan-cn/presale-knowledge-base.git knowledge
     echo "Knowledge base cloned successfully"
 else
     echo "Knowledge submodule already populated"
